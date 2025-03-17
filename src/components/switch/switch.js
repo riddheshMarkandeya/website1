@@ -6,7 +6,7 @@ const Switch = () => {
   let prefersDarkMode = false;
   let savedMode = false;
   if (isBrowser) {
-    prefersDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+    // prefersDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
     savedMode = localStorage.getItem('darkMode');
   }
   const [isChecked, setIsChecked] = React.useState(savedMode ? JSON.parse(savedMode) : prefersDarkMode);

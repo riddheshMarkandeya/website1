@@ -16,15 +16,21 @@ import Scroll from "../components/scroll";
 const IndexPage = () => (
   <>
     <Scroll />
-    <Seo/>
+    {/* <Seo/> */}
     <Switch />
     <Intro />
     <Background />
     <Skills />
     <Experience />
     <FeaturedProjects />
-    <OtherProjects />
+    {/* <OtherProjects /> */}
     <Footer />
+  </>
+)
+
+export const Head = () => (
+  <>
+    <Seo/>
   </>
 )
 

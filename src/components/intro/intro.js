@@ -5,11 +5,11 @@ import "./intro.scss"
 const introData = {
   title: "Hello! ",
   beforeName: "I'm ",
-  name: "Kavin Varnan",
-  afterName: ", an expert in top-tier mobile/web app architecture & robust backend servers.",
+  name: "Vrushali More",
+  afterName: ", a Pharmaceutical Sciences graduate student with expertise in analytical techniques, drug development, and regulatory compliance.",
   contact: "Get in touch ",
-  email: "kavin@varnan.me",
-  mailTo: "mailto:kavin@varnan.me",
+  email: "vamore0911@email.campbell.edu",
+  mailTo: "mailto:vamore0911@email.campbell.edu",
 };
 const Intro = () => {
   const [isHovering, setIsHovering] = React.useState(false);
@@ -36,7 +36,7 @@ const Intro = () => {
 
     <h2 className="intro__tagline">{introData.beforeName}
       <span className="name">{introData.name}</span>{introData.afterName}
-      <span className="emoji technologist"></span>
+      <span className="emoji woman-scientist"></span>
     </h2>
 
     <h3 className="intro__contact">
