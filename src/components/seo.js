@@ -5,9 +5,9 @@ const seoData = {
   "name": "Vrushali More",
   "description": "Vrushali More is an expert in analytical techniques, pharmaceutical research, and regulatory compliance.",
   "author": "Vrushali More",
-  "url": "https://bchiang7.github.io",
-  "logo": "https://bchiang7.github.io/img/emojis/technologist.png",
-  "cover": "https://bchiang7.github.io/img/og.png",
+  "url": "https://riddheshmarkandeya.github.io/website1",
+  "logo": "https://riddheshmarkandeya.github.io/website1/images/emojis/woman-scientist.png",
+  "cover": "https://riddheshmarkandeya.github.io/website1/images/og.png",
 }
 
 const Seo = () => (
